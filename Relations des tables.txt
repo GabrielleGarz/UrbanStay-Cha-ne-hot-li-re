@@ -1,0 +1,5 @@
+Un hôtel possède plusieurs chambres 1-->N   
+Une chambre appartient à un seul hôtel N-->1
+Une chambre peut être associée à plusieurs réservations 1-->
+Une réservation concerne une seule chambre N-->1
+Un jour (une date) de la table Calendrier peut être associé à plusieurs réservations au cours du temps 1-->N

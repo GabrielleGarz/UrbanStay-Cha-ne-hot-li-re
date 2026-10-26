@@ -1,0 +1,22 @@
+Nombre de réservations par clients avec affichage du nombre total des clients
+
+SELECT 
+    c.client_id, 
+    COUNT(r.client_id) AS nb_reservations,
+    COUNT(*) OVER() AS nombre_total_clients
+FROM clients c
+LEFT JOIN reservations r ON c.client_id = r.client_id
+GROUP BY c.client_id;
+
+La clause **`OVER()`** (associée à une fonction de fenêtrage comme `COUNT(*)`) permet d'effectuer un calcul global ou sur un groupe de lignes **sans écraser ni fusionner le détail de chaque ligne**.
+
+### Explication de sa différence avec un `GROUP BY` classique :
+
+1. **Sans `OVER` (avec un `GROUP BY` classique) :**
+Dès que tu fais un `GROUP BY c.client_id`, SQL regroupe tes 500 lignes de clients en paquets individuels par client. Si tu demandes un total global, SQL va t'obliger à réduire tout le résultat à **une seule ligne**. Tu perds le détail de chaque client.
+2. **Avec `OVER()` :**
+Le `GROUP BY c.client_id` calcule bien le nombre de réservations *pour chaque client individuels*, mais la fonction `COUNT(*) OVER()` va en plus **calculer le nombre total de lignes du résultat global (500)** et répéter cette valeur (500) sur chaque ligne du tableau, côte à côte avec le détail du client.
+
+### En résumé :
+
+`OVER()` sert à **garder le niveau de détail individuel** tout en affichant une **mesure globale** (comme un total, une moyenne ou un rang) calculée sur l'ensemble de la table en même temps.

@@ -1,0 +1,28 @@
+KPI Ecarts performances hôtels :
+---
+
+### Analyse des écarts entre les Hôtels (4 étoiles vs 3 étoiles)
+
+
+
+#### 1. Écart global sur le Panier Moyen
+
+* **Observation :** Pour la catégorie **4 étoiles**, le panier moyen tourne autour de **545 € à 640 €** selon le canal. Pour la catégorie **3 étoiles**, il est compris entre **415 € et 475 €**.
+
+
+* **Écart notable :** Les hôtels 4 étoiles génèrent un panier moyen supérieur d'environ **30 % à 35 %** par rapport aux hôtels 3 étoiles, quel que soit le canal de réservation.
+
+
+
+#### 2. Écart sur les Canaux de Réservation
+
+* **4 Étoiles :** Le canal **Agence** (bleu clair) génère le panier moyen le plus élevé (~640 €), suivi de près par le **Téléphone** (~610 €). Les clients haut de gamme dépensent davantage lorsqu'ils passent par une agence ou en direct par téléphone.
+
+
+* **3 Étoiles :** Le canal **Site web** (orange) passe en tête (~475 €), suivi par le canal **Agence** (~470 €), tandis que le canal **Téléphone** devient le panier moyen le plus bas (~415 €).
+
+
+
+#### En résumé :
+
+> « Les hôtels 4 étoiles présentent un panier moyen nettement supérieur (+30 à +35 %) aux 3 étoiles. De plus, le comportement par canal diffère : sur le 4 étoiles, ce sont les réservations par Agence et Téléphone qui apportent la plus forte valeur, alors que sur le 3 étoiles, le Site Web direct génère le panier moyen le plus élevé. »

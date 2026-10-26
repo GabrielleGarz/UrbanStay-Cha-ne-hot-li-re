@@ -1,0 +1,31 @@
+
+
+Le calcul du taux d'occupation que nous avons posé présente quelques limites méthodologiques importantes en gestion hôtelière :
+
+* **La capacité fixe indépendante des fermetures :** Le calcul multiplie la capacité totale de l'hôtel par le nombre de jours de la période, sans tenir compte des chambres temporairement hors service (rénovations, dégâts des eaux ou maintenance). Cela a tendance à sous-estimer légèrement le véritable taux d'occupation opérationnel.
+* **L'absence de distinction sur la structure des nuitées :** Une même réservation de longue durée pèse de la même manière qu'un enchaînement de courts séjours, sans refléter la rotation réelle des clients.
+* **La granularité de la capacité :** Si un hôtel modifie son nombre de chambres ou sa configuration en cours d'année, le calcul basé sur une capacité constante (*COUNTROWS('public chambres')*) peut lisser ou fausser la réalité historique.
+
+
+
+
+Le deuxième point — l'absence de distinction sur la structure des nuitées (ou la durée moyenne de séjour) — signifie que la formule mathématique brute du taux d'occupation traite toutes les nuits de la même façon, alors que la réalité commerciale et opérationnelle est très différente selon qu'il s'agit de longs séjours ou de courts séjours.
+
+Pour illustrer ce que cela implique concrètement :
+
+Un taux d'occupation identique, mais des réalités financières opposées :
+Imagine un hôtel de 100 chambres qui affiche un taux d'occupation de 50 % sur un mois de 30 jours (soit 1 500 nuitées vendues).
+
+Cas A : Ce taux est réalisé grâce à 10 clients qui restent chacun 150 jours.
+
+Cas B : Ce taux est réalisé grâce à 1 500 clients qui ne restent qu'une seule nuit.
+
+
+Les limites de l'indicateur brut :
+Le taux d'occupation te donne le volume global, mais il cache complètement la rotation des clients. Or, un taux d'occupation de 50 % composé de séjours très courts génère beaucoup plus de frais annexes (nettoyage quotidien, blanchisserie, accueil, gestion des arrivées/départs) qu'un taux de 50 % fait de longs séjours. De plus, cela ne renseigne pas sur la stabilité des revenus à court terme.
+
+Incapacité à intégrer les indisponibilités réelles du parc : Le calcul s'appuie sur un volume théorique maximal via COUNTROWS('public chambres') * COUNTROWS('Calendrier'), sans déduire les chambres hors service pour maintenance, travaux ou dégâts des eaux, ce qui sous-estime le taux d'occupation réel des chambres exploitables.
+
+Absence de sensibilité à la durée et à la rotation des séjours : La mesure traite toutes les nuitées de la même manière et ne reflète pas le comportement de la clientèle (un même taux global pouvant cacher soit de longs séjours stables, soit une forte rotation de courts séjours générant des coûts opérationnels et logistiques plus élevés).
+
+Fixité du périmètre hôtelier dans le temps : L'utilisation d'un dénombrement brut de la table des chambres ne prend pas en compte les éventuelles extensions, réductions de capacité ou fermetures d'établissements survenues au cours de la période d'analyse 2023–2025.

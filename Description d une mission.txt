@@ -1,0 +1,18 @@
+## Mission 3 — Le canal qui rapporte
+
+**Ce que j'ai compris de la question**
+[2 lignes. Qu'est-ce qu'on me demande exactement ? Qu'est-ce qui est ambigu ?]
+
+**Ce que j'ai décidé**
+[1 ligne. Quel critère j'ai retenu, et pourquoi celui-là.]
+
+**Ma requête** SELECT ...
+
+**Le résultat**
+[Les chiffres obtenus, nombre de lignes.]
+
+**Ma vérification**
+[Une DEUXIÈME requête, écrite autrement, qui confirme le résultat. Si elle ne confirme pas, dites-le — c'est une information.]
+
+**Ma réponse, en français**
+[2 ou 3 lignes. Comme si vous répondiez à la personne qui a posé la question. Aucun mot technique : ni « requête », ni « table », ni « jointure ».]

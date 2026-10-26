@@ -1,0 +1,6 @@
+Pour illustrer un **résultat inattendu ou intéressant** dans ton rapport, tu peux t'appuyer sur l'un de ces deux constats contre-intuitifs tirés de tes visuels :
+
+* **Le paradoxe du canal Téléphone entre les 3 et 4 étoiles :** On pourrait s'attendre à ce que le téléphone (qui implique un échange humain direct et haut de gamme) soit toujours le panier le plus fort pour les hôtels 4 étoiles. Or, si c'est bien le cas pour le 4 étoiles (où le téléphone culmine à plus de 600 €), c'est exactement l'inverse pour les hôtels 3 étoiles, où le téléphone représente le **panier moyen le plus bas** (environ 415 €), devancé par le site web et les agences.
+
+
+* **La domination des Agences sur le segment supérieur :** Le canal *Agence* (en bleu clair) génère le panier moyen le plus élevé sur les hôtels 4 étoiles (dépassant les 640 €), alors que l'on pourrait penser que les réservations en direct (site web ou téléphone) devraient systématiquement surpasser les intermédiaires en termes de valeur par séjour.

@@ -1,0 +1,17 @@
+Calendrier = 
+VAR DateDebut = 
+    MIN(
+        MIN('public reservations'[date_arrivee]), 
+        MIN('public reservations'[date_reservation])
+    )
+VAR DateFin = MAX('public reservations'[date_depart])
+RETURN
+ADDCOLUMNS(
+    CALENDAR(DateDebut, DateFin),
+    "Annee", YEAR([Date]),
+    "MoisNo", MONTH([Date]),
+    "Mois", FORMAT([Date], "mmmm"),
+    "AnneeMoisNo", YEAR([Date]) * 100 + MONTH([Date]),
+    "Trimestre", "T" & QUARTER([Date]),
+    "JourSemaine", FORMAT([Date], "dddd")
+)

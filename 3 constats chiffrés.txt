@@ -1,0 +1,12 @@
+Voici la rédaction formalisée de tes **3 constats chiffrés** issus du tableau de bord, prêts à être intégrés dans ton rapport ou ta synthèse :
+
+1. **Chiffre d'Affaires Total :**
+Le chiffre d'affaires global généré par l'ensemble des réservations s'élève à **1 035 148,67 €**.
+
+
+2. **Volume Total de Réservations :**
+Le nombre total de réservations enregistrées sur la période s'établit exactement à **2 000 réservations**.
+
+
+3. **Ville la plus contributrice :**
+La ville de **Paris** se positionne en tête des performances réseau en enregistrant le **chiffre d'affaires le plus élevé** parmi toutes les destinations hôtelières.

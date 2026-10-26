@@ -1,0 +1,19 @@
+Travail en binôme : Cristophe, Gabrielle
+
+3 questions 
+
+--Combien de chambres UrbanStay peut-il louer ?
+select count(*) as total_chambres from chambres;
+--Résultat : 160
+
+--Combien de personnes peut-il coucher en une seule nuit ?
+
+select sum(capacite) as nombres_personnes
+from chambres ;
+
+--résultat : 376
+
+--Quel est le tarif moyen d'une chambre ?
+
+select round(avg(tarif_standard), 2) as prix_moyen from chambres;
+--résultat 156,01

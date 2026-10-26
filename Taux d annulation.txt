@@ -1,0 +1,21 @@
+*Taux d'annulation
+
+Taux_d_Annulation = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS('public reservations'),
+        'public reservations'[statut] = "Annulée"
+    ),
+    'public reservations'[Nombre_de_reservations_totales],
+    0
+)
+
+
+
+*Taux d'occupation : Nombre de nuits réservées/(Nombre de chambres disponibles*Nombre de jours dans la période)*100
+
+Nuits_Reservees = SUM('public reservations'[duree_du_sejour])
+
+Nuits_Disponibles = COUNTROWS('public chambres') * COUNTROWS('Calendrier')
+
+Taux_Occupation = DIVIDE([Nuits_Reservees], [Nuits_Disponibles], 0)

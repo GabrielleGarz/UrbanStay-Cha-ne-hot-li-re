@@ -1,0 +1,51 @@
+﻿produit_id,nom_produit,categorie_produit,sous_categorie,marque,prix_catalogue,prix_mensuel,engagement_mois,statut_produit
+PRD001,Forfait Mobile Essentiel 10Go,Mobile,Forfait prépayé,NovaTel,0.00,9.99,0,actif
+PRD002,Forfait Mobile S 30Go,Mobile,Forfait SIM,NovaTel,0.00,14.99,12,actif
+PRD003,Forfait Mobile M 60Go,Mobile,Forfait SIM,NovaTel,0.00,19.99,24,actif
+PRD004,Forfait Mobile L 100Go,Mobile,Forfait SIM,NovaTel,0.00,24.99,24,actif
+PRD005,Forfait Mobile XL 200Go,Mobile,Forfait SIM,NovaTel,0.00,34.99,24,actif
+PRD006,Forfait Pro 5G illimité,Mobile,Forfait pro,NovaTel,0.00,49.99,24,actif
+PRD007,Forfait Famille 4 SIM,Mobile,Forfait famille,NovaTel,0.00,59.99,24,actif
+PRD008,Forfait Data Only 50Go,Mobile,Data seule,NovaTel,0.00,12.99,12,actif
+PRD009,Forfait Mobile S 30Go (ancien),Mobile,Forfait SIM,NovaTel,0.00,12.99,12,inactif
+PRD010,Fibre 500 Mb,Fibre,Fibre standard,NovaTel,0.00,29.99,12,actif
+PRD011,Fibre 1 Gb,Fibre,Fibre premium,NovaTel,0.00,39.99,24,actif
+PRD012,Fibre 2 Gb Pro,Fibre,Fibre pro,NovaTel,0.00,59.99,24,actif
+PRD013,Fibre 500 Mb (promo),Fibre,Fibre standard,NovaTel,0.00,24.99,12,inactif
+PRD014,Box Internet + TV Basic,Box,Box TV,NovaTel,0.00,34.99,12,actif
+PRD015,Box Internet + TV Premium,Box,Box TV,NovaTel,0.00,49.99,24,actif
+PRD016,Box Internet seule,Box,Box internet,NovaTel,0.00,24.99,12,actif
+PRD017,Box Pro Entreprise,Box,Box pro,NovaTel,0.00,79.99,24,actif
+PRD018,Smartphone NovaPhone A10,Terminal,Smartphone entrée,NovaTel,199.99,0.00,0,actif
+PRD019,Smartphone NovaPhone X20,Terminal,Smartphone milieu,NovaTel,399.99,0.00,0,actif
+PRD020,Smartphone NovaPhone Pro,Terminal,Smartphone haut,NovaTel,799.99,0.00,0,actif
+PRD021,Samsung Galaxy A34,Terminal,Smartphone milieu,Samsung,349.99,0.00,0,actif
+PRD022,Samsung Galaxy S23,Terminal,Smartphone haut,Samsung,899.99,0.00,0,actif
+PRD023,iPhone 14,Terminal,Smartphone haut,Apple,999.99,0.00,0,actif
+PRD024,iPhone 15 Pro,Terminal,Smartphone haut,Apple,1299.99,0.00,0,actif
+PRD025,Tablette NovaPad 10,Terminal,Tablette,NovaTel,249.99,0.00,0,actif
+PRD026,Tablette Samsung Tab A8,Terminal,Tablette,Samsung,299.99,0.00,0,actif
+PRD027,Clé 4G NovaDongle,Terminal,Dongle,NovaTel,49.99,0.00,0,actif
+PRD028,Box 4G portable,Terminal,Box mobile,NovaTel,79.99,0.00,0,actif
+PRD029,Montre NovaWatch,Terminal,Wearable,NovaTel,199.99,0.00,0,actif
+PRD030,Smartphone NovaPhone A8 (fin),Terminal,Smartphone entrée,NovaTel,149.99,0.00,0,inactif
+PRD031,Coque NovaPhone A10,Accessoire,Coque,NovaTel,14.99,0.00,0,actif
+PRD032,Coque NovaPhone X20,Accessoire,Coque,NovaTel,19.99,0.00,0,actif
+PRD033,Coque iPhone 14,Accessoire,Coque,Apple,29.99,0.00,0,actif
+PRD034,Verre trempé universel,Accessoire,Protection,NovaAcc,9.99,0.00,0,actif
+PRD035,Chargeur USB-C 65W,Accessoire,Chargeur,NovaTel,29.99,0.00,0,actif
+PRD036,Chargeur sans fil 15W,Accessoire,Chargeur,NovaTel,39.99,0.00,0,actif
+PRD037,Écouteurs NovaSound,Accessoire,Audio,NovaTel,49.99,0.00,0,actif
+PRD038,Écouteurs NovaSound Pro,Accessoire,Audio,NovaTel,89.99,0.00,0,actif
+PRD039,AirPods 3,Accessoire,Audio,Apple,179.99,0.00,0,actif
+PRD040,Câble USB-C 2m,Accessoire,Câble,NovaAcc,7.99,0.00,0,actif
+PRD041,Support voiture magnétique,Accessoire,Support,NovaAcc,19.99,0.00,0,actif
+PRD042,Batterie externe 10000mAh,Accessoire,Batterie,NovaTel,34.99,0.00,0,actif
+PRD043,Batterie externe 20000mAh,Accessoire,Batterie,NovaTel,54.99,0.00,0,actif
+PRD044,Kit mains-libres voiture,Accessoire,Audio,NovaAcc,24.99,0.00,0,actif
+PRD045,Film protecteur iPhone 15,Accessoire,Protection,Apple,24.99,0.00,0,actif
+PRD046,Coque Samsung S23,Accessoire,Coque,Samsung,24.99,0.00,0,actif
+PRD047,Chargeur rapide Samsung,Accessoire,Chargeur,Samsung,34.99,0.00,0,actif
+PRD048,Stylet NovaPad,Accessoire,Stylet,NovaTel,29.99,0.00,0,actif
+PRD049,Pochette tablette,Accessoire,Housse,NovaAcc,19.99,0.00,0,actif
+PRD050,Répéteur WiFi NovaMesh,Accessoire,Réseau,NovaTel,59.99,0.00,0,actif

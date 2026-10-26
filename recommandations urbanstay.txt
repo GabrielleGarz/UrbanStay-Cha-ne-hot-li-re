@@ -1,0 +1,7 @@
+* **Optimiser le canal Téléphone pour les hôtels 3 étoiles :** Compte tenu du paradoxe observé où le téléphone génère le panier moyen le plus bas sur les 3 étoiles 
+alors qu'il est performant sur le 4 étoiles, il est nécessaire de former les équipes en réception de ces établissements à des techniques de vente additionnelle 
+(*upselling* ou *cross-selling*).
+
+* **Mettre en place des actions ciblées sur le taux d'annulation :** Avec un taux d'annulation global avoisinant les 9,6 %, il convient d'analyser plus finement les conditions de réservation (notamment sur les catégories Deluxe, Standard et Suite qui dépassent les 10 %) afin d'introduire des arrhes ou des politiques de pénalité plus strictes pour sécuriser le chiffre d'affaires réel.
+
+**Optimiser la stratégie de distribution et réduire la dépendance à Booking : Face à la domination de Booking parmi les canaux, il est recommandé de rééquilibrer le mix des ventes en incitant la clientèle à privilégier le canal direct (site web ou téléphone) via des avantages exclusifs, afin de limiter l'impact des commissions des OTA sur la rentabilité globale.

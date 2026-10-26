@@ -1,0 +1,12 @@
+La documentation officielle de référence se trouve sur le portail **Microsoft Learn**.
+
+Tu y accèdes directement à cette adresse :
+
+👉 **[learn.microsoft.com/fr-fr/power-bi/](https://learn.microsoft.com/fr-fr/power-bi/)**
+
+### Ce que tu y trouves par section :
+
+* **Prise en main / Démarrage :** Les bases sur Power BI Desktop et le service cloud.
+* **Modélisation et DAX :** La référence complète du langage DAX, la création de relations et de mesures.
+* **Rapports et visuels :** La conception de tableaux de bord, les options de mise en forme et l'utilisation des segments.
+* **Power Query :** Le nettoyage et la transformation des données.

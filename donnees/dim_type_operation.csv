@@ -1,0 +1,9 @@
+﻿type_operation_id,type_operation,categorie_operation,impact_ca
+TOP01,Souscription,Abonnement,positif
+TOP02,Facturation,Abonnement,positif
+TOP03,Vente terminal,Equipement,positif
+TOP04,Vente accessoire,Equipement,positif
+TOP05,Remboursement,Avoir,négatif
+TOP06,Avoir commercial,Avoir,négatif
+TOP07,Résiliation,Abonnement,neutre
+TOP08,Annulation vente,Equipement,neutre

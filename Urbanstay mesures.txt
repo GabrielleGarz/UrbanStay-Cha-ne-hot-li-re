@@ -1,0 +1,69 @@
+*Montant total corrigé (utile pour créer le Chiffre d'affaires :
+
+C'est une colonne calculée
+
+
+montant_total_corrige = 
+VAR TarifStandard = RELATED('public chambres'[tarif_standard])
+
+RETURN
+    IF(
+        ISBLANK('public reservations'[montant_total]),
+        'public reservations'[duree_du_sejour] * TarifStandard,
+        'public reservations'[montant_total]
+    )
+
+*Chiffre d'affaires :
+
+Chiffre_d_Affaires = SUM('public reservations'[montant_total_corrige])
+
+
+*Nombre_de_reservations_totales = 
+DISTINCTCOUNT('public reservations'[reservation_id])
+
+
+*Taux d'annulation :
+
+Taux_d_Annulation = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS('public reservations'),
+        'public reservations'[statut] = "Annulée"
+    ),
+    'public reservations'[Nombre_de_reservations_totales],
+    0
+)
+
+*Nombre de réservations totales (utile pour calculer le Panier moyen) :
+
+Nombre_de_reservations_totales = 
+DISTINCTCOUNT('public reservations'[reservation_id])
+
+*Panier moyen :
+
+Panier_Moyen = 
+DIVIDE(
+    [Chiffre_d_Affaires],
+    [Nombre_de_reservations_totales],
+    0
+)
+
+
+*Durée moyenne du séjour :
+
+
+Duree_Moyenne_Sejour = 
+ROUND(AVERAGEX(
+    'public reservations',
+    DATEDIFF('public reservations'[date_arrivee], 'public reservations'[date_depart], DAY)
+),
+0)
+
+*Durée des séjours :
+
+
+duree_sejour_jours = 
+DATEDIFF('public reservations'[date_arrivee], 'public reservations'[date_depart], DAY)
+
+
+Modèle en flocons

@@ -1,0 +1,28 @@
+Le texte de dix lignes sur la question qui a le plus surpris, parmi trois questions pièges du brief. 
+Ce texte compte autant que le reste : il révèle si la personne a compris que la base peut renvoyer un résultat juste 
+qui ne dit pas ce qu'on croyait.
+
+J'ai choisi la question D7 :
+--D7.Reprenez C2, mais	en harmonisant les libellés avec upper(trim(canal_reservation)).
+
+La requête correspondante est :
+
+select upper(trim(canal_reservation)), count(*) as nombre_de_reservations_par_canal
+from reservations 
+group by upper(trim(canal_reservation)) order by nombre_de_reservations_par_canal desc;
+
+--Résultat : 5 lignes au lieu de 4 comme attendu en regardant le dictionnaire des données de la table réservations.
+--SITE WEB : 779
+--BOOKING : 609
+--AGENCE : 405
+--TÉLÉPHONE : 198
+--TELEPHONE : 9
+
+
+On doit regarder les libellés un par un	et expliquez ce	qui se passe :
+--La fonction trim nettoie les espaces autour du libellé. La fonction upper met en majuscule le libellé. 
+--Mais ceci ne règle pas le problème d'orthographe que trim et upper ne règlent pas. 
+--Le nettoyage des libellé se fait par une autre méthode (python).
+
+Ce qui est surprenant est le fait de nous demander une réflexion sur la façon dont se présentent le libellé alors qu'on n'a pas encore
+les éléments pour nettoyer la table.

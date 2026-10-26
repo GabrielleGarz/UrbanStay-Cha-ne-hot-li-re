@@ -1,0 +1,31 @@
+﻿point_vente_id,nom_point_vente,type_point_vente,ville,region,canal
+PV001,NovaTel Paris Opéra,Boutique propre,Paris,Île-de-France,boutique propre
+PV002,NovaTel Paris République,Boutique propre,Paris,Île-de-France,boutique propre
+PV003,NovaTel Paris Nation,Boutique propre,Paris,Île-de-France,boutique propre
+PV004,NovaTel Lyon Bellecour,Boutique propre,Lyon,Auvergne-Rhône-Alpes,boutique propre
+PV005,NovaTel Lyon Part-Dieu,Boutique propre,Lyon,Auvergne-Rhône-Alpes,boutique propre
+PV006,NovaTel Marseille Canebière,Boutique propre,Marseille,Provence-Alpes-Côte d'Azur,boutique propre
+PV007,NovaTel Bordeaux Intendance,Boutique propre,Bordeaux,Nouvelle-Aquitaine,boutique propre
+PV008,NovaTel Lille Grand-Place,Boutique propre,Lille,Hauts-de-France,boutique propre
+PV009,NovaTel Strasbourg Centre,Boutique propre,Strasbourg,Grand Est,boutique propre
+PV010,NovaTel Nantes Commerce,Boutique propre,Nantes,Pays de la Loire,boutique propre
+PV011,NovaTel Rennes Centre,Boutique propre,Rennes,Bretagne,boutique propre
+PV012,NovaTel Toulouse Capitole,Boutique propre,Toulouse,Occitanie,boutique propre
+PV013,NovaTel Nice Promenade,Boutique propre,Nice,Provence-Alpes-Côte d'Azur,boutique propre
+PV014,NovaTel Rouen Gros-Horloge,Boutique propre,Rouen,Normandie,boutique propre
+PV015,NovaTel Franchise Grenoble,Franchise,Grenoble,Auvergne-Rhône-Alpes,franchise
+PV016,NovaTel Franchise Toulon,Franchise,Toulon,Provence-Alpes-Côte d'Azur,franchise
+PV017,NovaTel Franchise Reims,Franchise,Reims,Grand Est,franchise
+PV018,NovaTel Franchise Brest,Franchise,Brest,Bretagne,franchise
+PV019,NovaTel Franchise Caen,Franchise,Caen,Normandie,franchise
+PV020,NovaTel Franchise Amiens,Franchise,Amiens,Hauts-de-France,franchise
+PV021,NovaTel Franchise Montpellier,Franchise,Montpellier,Occitanie,franchise
+PV022,NovaTel Franchise Angers,Franchise,Angers,Pays de la Loire,franchise
+PV023,NovaTel Franchise Le Havre,Franchise,Le Havre,Normandie,franchise
+PV024,NovaTel Franchise Limoges,Franchise,Limoges,Nouvelle-Aquitaine,franchise
+PV025,NovaTel Franchise Metz,Franchise,Metz,Grand Est,franchise
+PV026,NovaTel Web,Web,National,,web
+PV027,NovaTel Web Mobile,Web,National,,web
+PV028,Centre Appels Paris,Téléphone,Paris,Île-de-France,téléphone
+PV029,Centre Appels Lyon,Téléphone,Lyon,Auvergne-Rhône-Alpes,téléphone
+PV030,Centre Appels Nantes,Téléphone,Nantes,Pays de la Loire,téléphone

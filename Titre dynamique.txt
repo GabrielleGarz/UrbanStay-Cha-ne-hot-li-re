@@ -1,0 +1,37 @@
+
+Titre_Dynamique_Annee = 
+IF(
+    ISFILTERED('Calendrier'[Annee]),
+    "Taux d'occupation - Année(s) : " & CONCATENATEX(VALUES('Calendrier'[Annee]), FORMAT('Calendrier'[Annee], "0"), ", "),
+    "Taux d'occupation - Toutes les années (2023-2025)"
+)
+
+
+Comment fonctionne ce code ?
+ISFILTERED('Calendrier'[Annee]) : Vérifie si un filtre/sélection est appliqué sur le segment Année.
+
+CONCATENATEX(...) : Récupère la liste des années cochées dans le segment et les assemble séparées par une virgule.
+
+Si tu coches 2023 et 2024, le titre affichera :
+
+👉 « Taux d'occupation - Année(s) : 2023, 2024 »
+
+Si tu coches 2023 et 2025, il affichera :
+
+👉 « Taux d'occupation - Année(s) : 2023, 2025 »
+
+Si tu coches 2024 et 2025, il affichera :
+
+👉 « Taux d'occupation - Année(s) : 2024, 2025 »
+
+Si toutes les cases ou aucune case n'est cochée (ou via "Sélectionner tout"), il basculera automatiquement sur le texte par défaut :
+
+👉 « Taux d'occupation - Toutes les années (2023-2025) »
+
+
+Titre_Dynamique_Annee = 
+IF(
+    ISFILTERED('Calendrier'[Annee]),
+    "Taux d'occupation - Année " & SELECTEDVALUE('Calendrier'[Annee]),
+    "Taux d'occupation - Toutes les années (2023-2025)"
+)

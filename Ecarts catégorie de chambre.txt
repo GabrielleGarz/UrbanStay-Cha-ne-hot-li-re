@@ -1,0 +1,53 @@
+--*KPI : Performance selon le type de chambre
+
+---
+
+### 1. Écart de panier moyen / prix par réservation (entre *Suite* et *Standard*)
+
+* **Observation :**
+* Les **Suites** génèrent **177 599,20 €** pour seulement **180 réservations**, soit un panier moyen d'environ **986,66 €** par réservation ($\frac{177 599,20}{180}$).
+
+
+* Les chambres **Standard** génèrent **292 574,52 €** pour **834 réservations**, soit un panier moyen de seulement **350,81 €** par réservation ($\frac{292 574,52}{834}$).
+
+
+
+
+* **Écart notable :** Le panier moyen d'une **Suite** est **près de 3 fois supérieur (2,8x)** à celui d'une chambre Standard pour une même durée de séjour (3 jours).
+
+
+
+---
+
+### 2. Écart de Chiffre d'Affaires vs Volume (entre *Confort* et *Standard*)
+
+* **Observation :**
+* La catégorie **Standard** a le plus gros volume de ventes avec **834 réservations** (41,7 % du total des réservations).
+
+
+* Pourtant, c'est la catégorie **Confort** qui génère le **Chiffre d'affaires le plus élevé** (**356 112,08 €** avec 684 réservations).
+
+
+* **Écart notable :** Bien que la gamme Standard enregistre 150 réservations de plus que la gamme Confort, la catégorie **Confort apporte 63 500 € de CA supplémentaire** grâce à un meilleur panier moyen (~520,63 € contre ~350,81 €).
+
+
+
+
+### 3. Écart sur le Taux d'Annulation (entre *Confort* et le reste)
+
+* **Observation :**
+* Toutes les catégories (Deluxe, Standard, Suite) ont un taux d'annulation très aligné autour de **10 %** (10,00 % à 10,26 %).
+
+
+* La catégorie **Confort** se distingue avec un taux nettement plus bas à **8,48 %**.
+
+
+* **Écart notable :** La catégorie Confort est la plus stable avec un taux d'annulation inférieur de **1,7 à 1,8 point de pourcentage** par rapport aux autres chambres.
+
+
+
+---
+
+### Résumé pour ton analyse :
+
+Tu peux retenir la comparaison **Suite vs Standard** (écart très fort de rentabilité/panier moyen par séjour) ou **Confort vs Standard** (la gamme Confort génère plus de revenus tout en vendant moins de volume et en annulant moins) !
