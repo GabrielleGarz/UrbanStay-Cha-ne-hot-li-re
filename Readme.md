@@ -43,5 +43,6 @@ Le projet **UrbanStay** vise à fournir une vision à 360° sur le marché de la
 
 ### 1. Vue d'ensemble des Performances (KPIs)
 
-
+Présentés sur Canva :
+https://canva.link/nvm164m4biz3cih
 ---
