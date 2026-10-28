@@ -1,43 +1,66 @@
-🏨 UrbanStay — Solution d'Analyse Performance & Réservations Hôtelières
+# 🏨 UrbanStay Hotels – Pilotage de la Performance Hôtelière (Power BI)
 
-UrbanStay est une chaîne hôtelière moderne regroupant 8 établissements (3★ et 4★) implantés au cœur de plusieurs grandes métropoles. Ce projet centralise, analyse et valorise l'ensemble des données d'exploitation, de réservation et de satisfaction client du groupe.
-
-
----
-
-## ℹ️ À propos du projet
-
-Le projet **UrbanStay** vise à fournir une vision à 360° sur le marché de la location urbaine :
-- **KPIs clés** : Taux d'occupation, revenu moyen par nuitée (ADR), chiffre d'affaires total, durée moyenne de séjour.
-- **Analyse spatiale** : Cartographie des prix et de la densité des logements par quartier.
-- **Analyse comportementale** : Évaluation de la satisfaction client via les commentaires et notes.
+Ce dépôt héberge la documentation et les ressources du projet analytique pour la chaîne hôtelière **UrbanStay Hotels**. L'objectif est de centraliser et d'exploiter les données issues du système de réservation afin de fournir à la direction un outil décisionnel unique et interactif sous Power BI.
 
 ---
 
-## ✨ Fonctionnalités principales
+## 📋 Contexte du Projet
 
-- 📊 **Tableau de bord interactif** : Visualisation dynamique des performances financières et des réservations.
-- 📍 **Cartographie interactive** : Géolocalisation des biens et filtres par zone géographique.
-- 🔄 **Pipeline ETL automatisé** : Nettoyage, transformation et chargement des données brutes vers le Data Warehouse.
-- 🔍 **Requêtage avancé** : Analyses segmentées par type de logement, équipements, et saisonnalité.
+**UrbanStay Hotels** est une chaîne hôtelière présente dans plusieurs villes françaises. Jusqu'à présent, les informations relatives aux établissements, aux chambres, aux clients et aux réservations résidaient dans des tables isolées au sein d'une base PostgreSQL locale, sans outil de pilotage unifié.
+
+En tant que **Data Analyst**, la mission consiste à :
+1. **Déployer & Connecter :** Alimenter la base PostgreSQL locale via le script SQL fourni et la connecter à Power BI Desktop.
+2. **Préparer & Modéliser :** Nettoyer et transformer les données dans **Power Query** pour bâtir un modèle relationnel analytique (schéma en étoile/flocon).
+3. **Calculer des KPIs Métier :** Concevoir des mesures avancées en **DAX** pour évaluer la santé financière et l'activité opérationnelle.
+4. **Restituer & Analyser :** Concevoir un tableau de bord interactif permettant de comparer les établissements, de détecter les tendances et d'extraire des recommandations stratégiques.
+
+---
+
+## 🛠️ Stack Technique & Architecture
+
+* **Source de Données :** Base de données relationnelle **PostgreSQL** (exécutée en local).
+* **Extraction & Transformation (ETL) :** **Power Query M** (nettoyage des libellés, typage, gestion des valeurs manquantes, tables de faits et de dimensions).
+* **Modélisation & Calculs :** **DAX** (mesures calculées pour le suivi des revenus, taux d'occupation, paniers moyens et annulations).
+* **Restitution Visuelle :** **Power BI Desktop** (rapport interactif dynamique).
 
 ---
 
-## 🛠️ Architecture & Technologies
+## 📊 Indicateurs Clés de Performance (KPIs)
 
-### **Langages & Frameworks**
-- **Python** (Pandas, NumPy, Streamlit / Plotly) — pour l'ETL et l'analyse exploratoire.
-- **SQL** — pour les requêtes analytiques et la modélisation.
-- **HTML / CSS / Markdown** — pour la documentation et la présentation des rapports.
+Le tableau de bord permet à la direction de piloter l'activité selon 4 axes principaux :
 
-### **Données & Storage**
-- **PostgreSQL** — Stockage relationnel et Data Warehouse.
-- **DBeaver** / **VS Code** — Gestion des bases de données et environnement de développement.
+1. **Performance Financière & Revenus :**
+   * **Chiffre d’Affaires (CA) global et ventilé** par hôtel, type de chambre et période.
+   * **Revenu Moyen par Chambre / Panier Moyen**.
 
-### **Business Intelligence & Dataviz**
-- **Power BI** / — Conception des tableaux de bord interactifs et mesures DAX.
+2. **Taux d'Occupation & Activité Operionnelle :**
+   * **Taux d'Occupation (TO) :** Capacité utilisée par rapport à la capacité disponible.
+   * **Volume de nuitées vendues** et durée moyenne des séjours.
+
+3. **Analyse de la Sinistralité Commerciale & Annulations :**
+   * **Taux d'annulation** des réservations et pertes de revenus associées.
+   * Répartition des annulations par canal ou par hôtel.
+
+4. **Segmentation & Comparaison des Établissements :**
+   * **Benchmark inter-hôtels :** Comparaison directe des performances selon la localisation (villes françaises) et la typologie des clients.
 
 ---
+
+## 🎛️ Fonctionnalités du Tableau de Bord (Power BI)
+
+* **Navigation & Filtrage Dynamique :** Filtres croisés par ville/établissement, typologie de chambre et plages temporelles.
+* **Scorecards Exécutives :** Affichage synthétique des indicateurs globaux pour la prise de décision rapide.
+* **Visualisations Adaptées :** Graphiques temporels d'évolution des ventes, diagrammes de répartition et tableaux comparatifs inter-établissements.
+
+---
+
+## 🚀 Étapes de Mise en Œuvre
+
+1. **Base de données :** Exécution du script SQL dans PostgreSQL pour générer le schéma et alimenter les tables (`hôtels`, `chambres`, `clients`, `réservations`).
+2. **Connexion & ETL :** Chargement des tables dans Power BI via le connecteur PostgreSQL et nettoyage sous Power Query.
+3. **Modélisation :** Mise en place des relations (1 à plusieurs) entre les tables de dimensions et la table de faits des réservations.
+4. **Création DAX :** Écriture des formules métier (CA, Taux d'occupation, Annulations).
+5. **Restitution :** Finalisation de la mise en page du rapport et rédaction des constats analytiques.
 
 ## 📸 Aperçu du Dashboard
 
